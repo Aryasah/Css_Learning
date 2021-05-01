@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Focus Light</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="focusblur.css">
+</head>
+<body>
+	<div class="header">
+	<h3>
+		Child-Education
+	</h3>
+    </div>
+	<div class="container">
+	<p>
+		<span style="f">Education Is the Only Weapon Through Which
+		<br>
+		One Can Change World
+		<br>
+		Scan To Contribute
+		<br>
+		<small>UPI</small>
+	</p>
+	
+	</div>
+	<div id="cursor"></div>
+
+	<script type="text/javascript">
+		var cursor= document.getElementById('cursor');
+		document.addEventListener('mousemove',function(e) {
+			var x= e.clientX;
+			var y= e.clientY;
+			cursor.style.left= x + "px";
+			cursor.style.top = y + "px";
+		});
+	</script>
+
+</body>
+</html>

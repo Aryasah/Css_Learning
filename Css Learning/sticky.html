@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta cahrset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">ARYA</a>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Feedback</a></li>
+			<li><a href="#">Projects</a></li>
+		</ul>
+	</header>
+	<section class="banner">
+		<div class="container">
+		<video src="clip.mp4" type="video/mp4" autoplay muted loop></video>
+		<video src="ink.mp4" type="video/mp4" autoplay muted loop></video>
+	</div>
+	</section>
+
+	<script type="text/javascript">
+		window.addEventListener("scroll", function() {
+			var header = document.querySelector("header");
+			header.classList.toggle("sticky", window.scrollY=0);
+		});
+	</script>
+	
+</body>
+</html>

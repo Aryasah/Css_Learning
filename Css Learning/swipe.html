@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Swiper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <link rel="stylesheet" type="text/css" href="swiper.css">
+</head>
+<body>
+	<div class="container">
+	  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(image1.jpg)"><h3>01</h3>
+      <p>Social
+      	<br>Media</p></div>
+      <div class="swiper-slide" style="background-image:url(image2.jpg)"><h3>02</h3><p>Amazing
+      	<br>Patterns</p></div>
+      <div class="swiper-slide" style="background-image:url(image3.jpg)"><h3>03</h3><p>Color
+      	<br>Blend</p></div>
+      <div class="swiper-slide" style="background-image:url(sports.jpg)"><h3>04</h3><p>Water
+      	<br>Sports</p></div>
+      <div class="swiper-slide" style="background-image:url(lake.jpg)"><h3>05</h3><p>Awesome
+      	<br>Views</p></div>
+      <div class="swiper-slide" style="background-image:url(laptop.jpg)"><h3>06</h3><p>Emerging
+      	<br>Technology</p></div>
+	  <div class="swiper-slide" style="background-image:url(image5.jpg)"><h3>07</h3><p>Amazing
+      	<br>colours</p></div>
+      <div class="swiper-slide" style="background-image:url(valley.jpg)"><h3>08</h3><p>Nature's
+      	<br>Beauty</p></div>
+      <div class="swiper-slide" style="background-image:url(cosmos.jpg)"><h3>09</h3><p>Attractive
+      	<br>Cosmos</p></div>
+      <div class="swiper-slide" style="background-image:url(metro.jpg)"><h3>10</h3><p>Fast
+      	<br>Transport</p></div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+	<script type="text/javascript" src="swiper-bundle.min.js"></script>
+	 <!-- Swiper JS -->
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+    </script>
+
+  	</script>
+</body>
+</html>
